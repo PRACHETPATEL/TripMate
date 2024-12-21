@@ -1,0 +1,155 @@
+:root {
+    --bs-primary: #6EA8CD !important;
+    --bs-secondary: #2b5b65 !important;
+    --bs-tertiary: #F4F1DE !important;
+    --bs-quadinary: #2A9D8F !important;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.btnsecondary {
+    background-color: var(--bs-secondary) !important;
+    border: 0px !important;
+}
+
+.bgtertiary {
+    background-color: var(--bs-tertiary) !important;
+}
+
+.btnsecondary:hover {
+    background-color: var(--bs-quadinary) !important;
+}
+
+.header {
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: var(--bs-tertiary);
+}
+
+li {
+    font-weight: 700;
+    background-color: var(--bs-tertiary);
+}
+
+.navanchor {
+    color: black !important;
+}
+
+.navanchor:hover {
+    color: var(--bs-quadinary) !important;
+}
+
+.logo {
+    height: 8vh;
+    width: 120px;
+}
+
+#home {
+    background-image: url('../images/hero-bg.webp');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#about {
+    background-color: var(--bs-tertiary);
+    min-height: 100vh;
+    padding-top: 12vh;
+    padding-bottom: 20px;
+}
+
+#services {
+    background-color: var(--bs-primary);
+    min-height: 100vh;
+    padding-top: 12vh;
+}
+#services h2{
+    color: white !important;
+    
+}
+.customcard {
+    background-color: var(--bs-tertiary) !important;
+    min-height: 140px;
+}
+
+p {
+    margin: 0 !important;
+    text-align: justify;
+}
+
+#packages {
+    background-color: var(--bs-tertiary);
+    min-height: 100vh;
+    padding-top: 12vh;
+}
+
+.packagecard {
+    background-color: var(--bs-secondary) !important;
+    color: white !important;
+    min-height: 440px;
+}
+
+.card-img-top {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-img-top:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+#contact{
+    background-color: var(--bs-primary);
+    min-height: 100vh;
+    padding-top: 12vh;
+}
+#contact .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    color: white !important;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#contact .form-label {
+    font-weight: bold;
+    color: white !important;
+}
+
+#contact .form-control {
+    border-color: var(--bs-quadinary) !important;
+    box-shadow: none;
+}
+
+#contact .form-control:focus {
+    border-color: var(--bs-primary) !important;
+    box-shadow: 0 0 0 0.2rem rgba(110, 168, 205, 0.5);
+}
+
+#contact textarea.form-control {
+    resize: vertical;
+}
+
+#contact button[type="submit"] {
+    background-color: var(--bs-secondary) !important;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: var(--bs-quadinary) !important;
+}
+.footer{
+    background-color: var(--bs-tertiary) !important;
+}

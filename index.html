@@ -1,15 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="icon" href="./images/logo.jpeg" type="image/jpeg">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./images/logo.jpeg" type="image/jpeg">
     <title>TRIPMATE</title>
 </head>
+
 <body>
-    <h1 class="text-center">Tripmate</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header class="header">
+        <nav class="navbar navbar-expand-sm container h-100 p-0">
+            <a class="navbar-brand" href="#"><img class="logo" src="./images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link navanchor px-2" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link navanchor px-2" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link navanchor px-2" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link navanchor px-2" href="#packages">Packages</a></li>
+                    <li class="nav-item"><a class="nav-link navanchor px-2" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="text-white text-center d-flex align-items-center justify-content-center">
+        <div>
+            <h1>Discover Your Next Destination</h1>
+            <div class="lead">Plan your perfect getaway with us</div>
+            <a href="#packages" class="btn btn-secondary btnsecondary btn-lg my-3">Explore Packages</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <p class="">Welcome to TripMate: Random Stuff, your ultimate travel companion for discovering unique and
+                unforgettable adventures! Whether you're an avid explorer or someone seeking spontaneous getaways, we’re
+                here to fuel your wanderlust with a twist of randomness.
+                <br><br>
+                At TripMate, we believe that travel isn't just about visiting new places – it’s about embracing the
+                unexpected. From hidden gems to quirky destinations, our goal is to help you uncover the world’s most
+                interesting and offbeat locations. We bring you travel tips, itineraries, stories, and insights that
+                will spark curiosity and inspire you to take the road less traveled.
+                <br><br>
+                Our team is a passionate group of travel enthusiasts who are always on the lookout for new and exciting
+                places to explore. We share our personal experiences, hidden spots, and random adventures that go beyond
+                the usual tourist attractions. With TripMate, we promise that you’ll find something new, something
+                strange, and most importantly, something that will make you want to pack your bags and go!
+                <br><br>
+                We understand that the best trips are often the ones you don’t plan. That's why we’re dedicated to
+                bringing you the most spontaneous travel ideas, from backpacking through unexpected destinations to
+                enjoying quirky local festivals you never knew existed.
+                <br><br>
+                Join us in exploring the world’s randomness, one trip at a time. Whether you're into hiking, culture,
+                food, or simply wandering, TripMate: Random Stuff will be your guide to a travel experience like no
+                other.
+                <br><br>
+                Let’s get lost together!
+            </p>
+        </div>
+
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 my-3">
+                    <div class="card customcard">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Flight Booking</h5>
+                            <p class="card-text">Book flights to destinations worldwide at competitive rates.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 my-3">
+                    <div class="card customcard">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Hotel Booking</h5>
+                            <p class="card-text">Find the perfect accommodations for your trip.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 my-3">
+                    <div class="card customcard">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Custom Packages</h5>
+                            <p class="card-text">Design a travel package tailored to your needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="packages">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Packages</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card packagecard">
+                        <img src="./images/package1.jpg" class="card-img-top" alt="Package 1">
+                        <div class="card-body">
+                            <h5 class="card-title">KASOL ADVENTURE CAMP</h5>
+                            <p class="card-text">Kasol is a picturesque village located in the Parvati Valley of
+                                Himachal Pradesh, India. Starting at ₹8700.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card packagecard">
+                        <img src="./images/package2.jpg" class="card-img-top" alt="Package 2">
+                        <div class="card-body">
+                            <h5 class="card-title">NAINITAL</h5>
+                            <p class="card-text">Visit the heart of Nainital - Naini Lake and admire the view of
+                                standing tall seven hills mirrored in the lake. Starting at ₹10000.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card packagecard">
+                        <img src="./images/package3.jpg" class="card-img-top" alt="Package 3">
+                        <div class="card-body">
+                            <h5 class="card-title">KEDARKANTHA TREK</h5>
+                            <p class="card-text">Kedarkantha is such a popular winter trek that it would be apt to
+                                entitle it as the Queen of Winter Treks. Starting at ₹7500.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card packagecard">
+                        <img src="./images/package4.jpg" class="card-img-top" alt="Package 4">
+                        <div class="card-body">
+                            <h5 class="card-title">BRAHMATAL TREK </h5>
+                            <p class="card-text">Another jewel of the Himalayas which is untouched by trekkers around
+                                the world is the Brahmatal trek, which is devoted to Lord Brahma. Starting at ₹9000.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card packagecard">
+                        <img src="./images/package5.jpg" class="card-img-top" alt="Package 4">
+                        <div class="card-body">
+                            <h5 class="card-title">JAMBUGHODA ADVENTURE CAMP</h5>
+                            <p class="card-text">Jambughoda Wildlife Sanctuary is a protected area located in the
+                                Panchmahal district of Gujarat, India. Starting at ₹1250.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer py-3">
+        <div class="container text-center">
+          <div class="mb-2">
+            <a href="#" class="text-black text-decoration-none me-3"><i class="fa-brands fa-square-facebook" style="font-size: 30px;"></i></a>
+            <a href="#" class="text-black text-decoration-none me-3"><i class="fa-brands fa-square-x-twitter" style="font-size: 30px;"></i></a>
+            <a href="#" class="text-black text-decoration-none "><i class="fa-brands fa-square-instagram" style="font-size: 30px;"></i></a>
+          </div>
+          <div>&copy; 2024 TripMate. All rights reserved.</div>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
